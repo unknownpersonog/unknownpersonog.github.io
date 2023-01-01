@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -65,96 +66,14 @@ if (location.protocol != 'https:') {
     <div class="container mt-5 linebottom linetop">
       <div class="row vertical">
         <div class="col-xs-4 col-md-4 bar vl">
-          <h3 style="color: azure">Sign Up!</h3>
+          <h3 style="color: azure">Sign Up/Login!</h3>
           <p style="color: azure">Sign up to start accessing our services!</p>
           <p style="color: azure">Click here to Sign Up/Sign In</p>
           <div>
-<button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Sign Up</button>
-<div id="id01" class="modal">
-  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
-  <form class="modal-content animate" action="/dcsignin.php">
-    <div class="container">
-      <h1>Sign Up</h1>
-      <p style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Please fill in this form to create an account.</p>
-      <hr>
-      <label for="email" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;" > <b>Email</b></label>
-      <input type="text" placeholder="Enter Email" name="email" required>
-
-      <label for="psw" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-
-      <label for="psw-repeat" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><b>Repeat Password</b></label>
-      <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
-      
-      <label style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
-      </label>
-
-      <p style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms and Privacy</a>.</p>
-
-      <div class="clearfix">
-        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
-        <button type="submit" class="signupbtn">Sign Up</button>
-      </div>
-    </div>
-  </form>
+<a href="https://client.unknownnodes.ml" class="btn btn-primary">Client Area</a>
             </div>
-              <button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
+        </div>
 
-<div id="id02" class="modal">
-  
-  <form class="modal-content animate" action="/action_page.php" method="post">
-    <div class="imgcontainer">
-      <span onclick="document.getElementById('id02').style.display='none'" class="close" title="Close Modal">&times;</span>
-      <img src="https://cdn.glitch.global/79e43af1-79ff-49eb-b17d-ba68b3bd168c/3d-avatar-male_lg.webp?v=1672319579024" alt="Avatar" class="avatar">
-    </div>
-
-    <div class="container">
-      <label for="uname" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><b>Username</b></label>
-      <input type="text" placeholder="Enter Username" name="uname" required>
-
-      <label for="psw" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;"><b>Password</b></label>
-      <input type="password" placeholder="Enter Password" name="psw" required>
-        
-      <button type="submit">Login</button>
-      <label style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">
-        <input type="checkbox" checked="checked" name="remember"> Remember me
-      </label>
-    </div>
-
-    <div class="container">
-      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn">Cancel</button>
-      <span class="psw" style="background: -webkit-linear-gradient(#ffafbd, #ffc3a0);-webkit-background-clip: text;-webkit-text-fill-color: transparent;">Forgot <a href="#">password?</a></span>
-    </div>
-  </form>
-</div>
-
-<script>
-// Get the modal
-var modal = document.getElementById('id02');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-    if (event.target == modal) {
-        modal.style.display = "none";
-    }
-}
-</script>
-</div>
-    
-
-<script>
-// Get the modal
-var modal = document.getElementById('id02');
-
-// When the user clicks anywhere outside of the modal, close it
-window.onclick = function(event) {
-  if (event.target == modal) {
-    modal.style.display = "none";
-  }
-}
-</script>
-      </div>
         <div class="col-xs-4 col-md-4 bar vl vertical2">
           <h3 style="color: azure">Info</h3>
           <p style="color: azure">UnknownVPS is a new VPS Service.</p>
